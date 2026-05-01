@@ -1,6 +1,6 @@
 # ComfyUI Tailscale Peers Panel
 
-A lightweight ComfyUI plugin that shows who's online on your Tailscale network in a floating, draggable panel.
+A lightweight ComfyUI plugin that shows who's online on your Tailscale network.
 
 ## Features
 - 🟢 Live online/offline status for all Tailscale peers
