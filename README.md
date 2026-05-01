@@ -7,7 +7,6 @@ A lightweight ComfyUI plugin that shows who's online on your Tailscale network.
 - 🖥️ OS detection icons (Windows, Linux, macOS, iOS, Android)
 - 🕒 Last-seen time for offline peers
 - 🔄 Auto-refreshes every 15 seconds
-- 🖱️ Draggable, collapsible panel
 
 ## Installation
 
@@ -42,7 +41,3 @@ The plugin tries two methods to get peer data:
 **Panel shows "Tailscale unavailable"**
 - Make sure Tailscale is connected: `tailscale status`
 - Make sure the CLI is accessible: `which tailscale`
-
-**Panel doesn't appear**
-- Open browser devtools console and look for errors
-- Make sure the `web/` directory is present inside the plugin folder
